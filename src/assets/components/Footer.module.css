@@ -1,0 +1,43 @@
+.content {
+  padding: 32px 0;
+  color: #fff;
+}
+
+.footer {
+  margin: 0 auto;
+  max-width: 1240px;
+}
+
+.footer .pages {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pages .page {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.footer .copy {
+  margin-top: 32px;
+  padding: 32px 0 0 0;
+  border-top: 0.5px solid white;
+}
+
+.copy p {
+  text-align: center;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 1240px) {
+  .footer {
+    padding: 0 64px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer {
+    padding: 0 16px !important;
+  }
+}
